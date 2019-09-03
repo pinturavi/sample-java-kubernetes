@@ -1,0 +1,3 @@
+docker run -it -v /home/ubuntu/Desktop/xml/java-sample/src/main/resources:/opt/data pinturavi/sample-java:latest
+
+minikube start --mount-string "$HOME/Desktop/xml/java-sample/src/main/resources:/opt/data" --mount --memory 4096
